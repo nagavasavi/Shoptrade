@@ -87,6 +87,7 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    scroll-behavior: smooth;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -187,23 +188,52 @@ table {
     padding-right: 92px;
 }
 
-.banner_button {
+.career_banner .banner_text .position_button .button_text .banner_button {
     background: #ED4E08;
     border: 1px solid #ED4E08;
     border-radius: 10px;
-    width: 40%;
-    padding: 8px 0;
+    padding: 12px 12px;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 38px;
     color: #FFFFFF;
+    transform: translateX(0px);    
+    transition: all 0.3s ease-in;
+}
+.career_banner .banner_text .position_button .button_text .banner_button:hover {
+    background: #ffffff;
+    border: 2px solid #ed4e08;
+    color: #ED4E08;
+    cursor: pointer;
+}
+
+.career_banner .banner_text .position_button .button_text a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.career_banner .banner_text .position_button .button_text a .banner_button svg{
+    padding-left: 10px;
 }
 
 .banner{
     padding-bottom: 80px;
 }
+
+.position_button{
+    display:flex;
+}
+
+.career_banner .banner_text .position_button .button_text .banner_button:hover svg path{
+    fill: #ed4e08;
+}
+
+.career_banner .banner_text .position_button .button_text .banner_button:hover svg {
+    transform: translateX(5px);    
+    transition: all 0.3s ease-in;
+  }
 
 /*banner section css ends here*/
 
@@ -235,12 +265,25 @@ table {
 .about_button{
 font-family: 'Poppins';
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 font-size: 25px;
 line-height: 38px;
-text-decoration-line: underline;
+text-decoration-line: none;
 color: #FFFFFF;
 padding-bottom: 60px;
+transform: translateX(0px);    
+transition: all 0.3s ease-in;
+display: inline-block;
+}
+
+.about_button:hover{
+    text-decoration: underline;
+}
+
+.about_button:hover svg{
+    transform: translateX(5px);    
+    transition: all 0.3s ease-in;
+
 }
 /*about section css ends here*/
 
@@ -282,23 +325,36 @@ margin-bottom: 60px;
 
 /*tab section css starts here*/
 .tablinks {
-    font-family: 'Mont';
+    font-family: 'Poppins';
     font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 20px;
     align-items: center;
     text-align: center;
     color: #000000;
+    padding: 17px 40px;
 }
 
 .tabcontent p {
-    font-family: 'Hind';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 34px;
-    color: #000000;
-    width: 70%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-transform: capitalize;
+color: #000000;
+padding: 15px;
+}
+
+.tabcontent .location{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+text-transform: capitalize;
+color:#7E7E7E
+
 }
 
 .tab{
@@ -317,10 +373,200 @@ margin-bottom: 60px;
 .tab h3:hover {
     cursor: pointer;
     background: #FFFFFF;
-box-shadow: 0px 2px 4px 1px rgba(57, 57, 57, 0.14);
+    box-shadow: 0px 2px 4px 1px rgba(57, 57, 57, 0.14);
   }
 
+  .tabcontent:hover{
+   background:#ED4E08;
+   
+  }
+  .tabcontent:hover p{
+    color: #fff;
+   }
+
   .tabcontent{
-      padding-bottom: 20px;
+    padding-bottom: 20px;
+    background: #F8F8F8;
+    border-radius: 10px;
+    width: 90%;
+    margin-bottom: 50px;
   }
   /*tab section css ends heer*/
+
+  /*features section css starts here*/
+  .heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding: 50px 0;
+  }
+
+  .icons h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+
+  .icons p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #D9D9D9;
+    padding-bottom: 40px;
+    padding-top: 20px;
+
+  }
+
+  .six_icons{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 80px;
+  }
+
+  .icons{
+      background: #000000;
+  }
+  /*features section css ends here*/
+
+  /*testimonial section css starts here*/
+  .test_flex{
+      display: flex;
+      column-gap: 60px;
+  }
+  
+  
+  .test_loc{
+      display: flex;
+  }
+  
+  .test_emp{
+      display:flex;
+      /* justify-content: space-between;
+      width: 40%; */
+  }
+
+  .test1, .test2{
+    background: #F8F8F8;
+    border-radius: 20px;
+    padding: 15px;
+  }
+
+  .test h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+    padding: 50px 0;
+  }
+
+  .test_flex p{
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #000000;
+    padding-bottom: 42px;
+    width: 100%;
+  }
+
+  .test_details h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  .test_details h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .testimonial .test_flex .test_emp .loc_text .test_location{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px; 
+    color: #00000080;
+
+  }
+
+  .test_img img, .loc_icon{
+    padding-right: 10px;
+  }
+
+  .loc_icon{
+    padding-top: 6px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  /*contact us section css starts here*/
+  .contact h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding: 40px 200px;
+  }
+
+  .contact p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding:0 50px;
+    padding-bottom: 50px;
+  }
+
+  .contact a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-decoration:none;
+  }
+
+  .contact{
+    background: #ED4E08;
+    border-radius: 20px;
+    margin: 80px 0;
+  }
+
+  .contact a:hover{
+      color:#fff;
+      text-decoration:underline;
+  }
