@@ -199,9 +199,10 @@ table {
     font-size: 20px;
     line-height: 38px;
     color: #FFFFFF;
-    transform: translateX(0px);    
+    transform: translateX(0px);
     transition: all 0.3s ease-in;
 }
+
 .career_banner .banner_text .position_button .button_text .banner_button:hover {
     background: #ffffff;
     border: 2px solid #ed4e08;
@@ -209,31 +210,32 @@ table {
     cursor: pointer;
 }
 
-.career_banner .banner_text .position_button .button_text a{
+.career_banner .banner_text .position_button .button_text a {
     display: flex;
     align-items: center;
     text-decoration: none;
 }
-.career_banner .banner_text .position_button .button_text a .banner_button svg{
+
+.career_banner .banner_text .position_button .button_text a .banner_button svg {
     padding-left: 10px;
 }
 
-.banner{
+.banner {
     padding-bottom: 80px;
 }
 
-.position_button{
-    display:flex;
+.position_button {
+    display: flex;
 }
 
-.career_banner .banner_text .position_button .button_text .banner_button:hover svg path{
+.career_banner .banner_text .position_button .button_text .banner_button:hover svg path {
     fill: #ed4e08;
 }
 
 .career_banner .banner_text .position_button .button_text .banner_button:hover svg {
-    transform: translateX(5px);    
+    transform: translateX(5px);
     transition: all 0.3s ease-in;
-  }
+}
 
 /*banner section css ends here*/
 
@@ -259,68 +261,70 @@ table {
     font-size: 22px;
     line-height: 30px;
     color: #FFFFFF;
-    padding-bottom:60px ;
+    padding-bottom: 60px;
 }
 
-.about_button{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 25px;
-line-height: 38px;
-text-decoration-line: none;
-color: #FFFFFF;
-padding-bottom: 60px;
-transform: translateX(0px);    
-transition: all 0.3s ease-in;
-display: inline-block;
+.about_button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    text-decoration-line: none;
+    color: #FFFFFF;
+    padding-bottom: 60px;
+    transform: translateX(0px);
+    transition: all 0.3s ease-in;
+    display: inline-block;
 }
 
-.about_button:hover{
+.about_button:hover {
     text-decoration: underline;
 }
 
-.about_button:hover svg{
-    transform: translateX(5px);    
+.about_button:hover svg {
+    transform: translateX(5px);
     transition: all 0.3s ease-in;
 
 }
+
 /*about section css ends here*/
 
 /*next leap css section starts here*/
-.big_leap h3{
+.big_leap h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     color: #000000;
-    padding-top:50px;
+    padding-top: 50px;
     line-height: 60px;
 }
 
-.big_leap .para1{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 30px;
-color: #000000;
-padding-bottom:50px ;
+.big_leap .para1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 50px;
 }
 
-.big_leap .para2{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 30px;
-color: #000000;
-margin-bottom: 60px;
+.big_leap .para2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 60px;
 }
 
-.big_leap .para2 span{
-    font-weight: 700; 
+.big_leap .para2 span {
+    font-weight: 700;
 }
+
 /*next leap section css ends here*/
 
 /*tab section css starts here*/
@@ -336,36 +340,35 @@ margin-bottom: 60px;
 }
 
 .tabcontent p {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 30px;
-text-transform: capitalize;
-color: #000000;
-padding: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #000000;
+    padding: 15px;
 }
 
-.tabcontent .location{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 27px;
-text-transform: capitalize;
-color:#7E7E7E
-
+.tabcontent .location {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #7E7E7E
 }
 
-.tab{
+.tab {
     display: flex;
     padding-bottom: 20px;
     justify-content: space-between;
     width: 40%;
-    
+
 }
 
-.content{
+.content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -374,27 +377,29 @@ color:#7E7E7E
     cursor: pointer;
     background: #FFFFFF;
     box-shadow: 0px 2px 4px 1px rgba(57, 57, 57, 0.14);
-  }
+}
 
-  .tabcontent:hover{
-   background:#ED4E08;
-   
-  }
-  .tabcontent:hover p{
+.tabcontent:hover {
+    background: #ED4E08;
+
+}
+
+.tabcontent:hover p {
     color: #fff;
-   }
+}
 
-  .tabcontent{
+.tabcontent {
     padding-bottom: 20px;
     background: #F8F8F8;
     border-radius: 10px;
     width: 90%;
     margin-bottom: 50px;
-  }
-  /*tab section css ends heer*/
+}
 
-  /*features section css starts here*/
-  .heading{
+/*tab section css ends heer*/
+
+/*features section css starts here*/
+.heading {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -402,9 +407,9 @@ color:#7E7E7E
     line-height: 60px;
     color: #FFFFFF;
     padding: 50px 0;
-  }
+}
 
-  .icons h3{
+.icons h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -412,9 +417,9 @@ color:#7E7E7E
     line-height: 33px;
     text-transform: capitalize;
     color: #FFFFFF;
-  }
+}
 
-  .icons p{
+.icons p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -424,43 +429,45 @@ color:#7E7E7E
     padding-bottom: 40px;
     padding-top: 20px;
 
-  }
+}
 
-  .six_icons{
-      display:grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      column-gap: 80px;
-  }
+.six_icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 80px;
+}
 
-  .icons{
-      background: #000000;
-  }
-  /*features section css ends here*/
+.icons {
+    background: #000000;
+}
 
-  /*testimonial section css starts here*/
-  .test_flex{
-      display: flex;
-      column-gap: 60px;
-  }
-  
-  
-  .test_loc{
-      display: flex;
-  }
-  
-  .test_emp{
-      display:flex;
-      /* justify-content: space-between;
+/*features section css ends here*/
+
+/*testimonial section css starts here*/
+.test_flex {
+    display: flex;
+    column-gap: 60px;
+}
+
+
+.test_loc {
+    display: flex;
+}
+
+.test_emp {
+    display: flex;
+    /* justify-content: space-between;
       width: 40%; */
-  }
+}
 
-  .test1, .test2{
+.test1,
+.test2 {
     background: #F8F8F8;
     border-radius: 20px;
     padding: 15px;
-  }
+}
 
-  .test h2{
+.test h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -468,9 +475,9 @@ color:#7E7E7E
     line-height: 60px;
     color: #000000;
     padding: 50px 0;
-  }
+}
 
-  .test_flex p{
+.test_flex p {
     font-family: 'Poppins';
     font-style: italic;
     font-weight: 500;
@@ -479,57 +486,47 @@ color:#7E7E7E
     color: #000000;
     padding-bottom: 42px;
     width: 100%;
-  }
+}
 
-  .test_details h4{
+.test_details h4 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     color: #000000;
-  }
+}
 
-  .test_details h6{
+.test_details h6 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: rgba(0, 0, 0, 0.7);
-  }
+}
 
-  .testimonial .test_flex .test_emp .loc_text .test_location{
+.testimonial .test_flex .test_emp .loc_text .test_location {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 27px; 
+    line-height: 27px;
     color: #00000080;
 
-  }
+}
 
-  .test_img img, .loc_icon{
+.test_img img,
+.loc_icon {
     padding-right: 10px;
-  }
+}
 
-  .loc_icon{
+.loc_icon {
     padding-top: 6px;
-  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-  /*contact us section css starts here*/
-  .contact h3{
+/*contact us section css starts here*/
+.contact h3 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -537,36 +534,268 @@ color:#7E7E7E
     line-height: 60px;
     color: #FFFFFF;
     padding: 40px 200px;
-  }
+}
 
-  .contact p{
+.contact p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     color: #FFFFFF;
-    padding:0 50px;
+    padding: 0 50px;
     padding-bottom: 50px;
-  }
+}
 
-  .contact a{
+.contact a {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     color: #000000;
-    text-decoration:none;
-  }
+    text-decoration: none;
+}
 
-  .contact{
+.contact {
     background: #ED4E08;
     border-radius: 20px;
     margin: 80px 0;
-  }
+}
 
-  .contact a:hover{
-      color:#fff;
-      text-decoration:underline;
-  }
+.contact a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/*contact us section css starts here*/
+
+/*media query for 1024 screen starts here*/
+@media (max-width:1024px) {
+    .container {
+        width: auto;
+    }
+
+    .test h2 {
+        font-size: 35px;
+    }
+
+    .contact h3 {
+        font-size: 35px;
+        padding: 40px 100px;
+    }
+
+    .contact p {
+        font-size: 16px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .contact a {
+        font-size: 15px;
+    }
+
+    .banner_text h3{
+        padding-top: 33px;
+    }
+
+    .banner_text h5{
+        font-size: 28px;
+    }
+}
+    /*media query 1024px screen ends here*/
+
+    /*media query 768px screen starts here*/
+@media (max-width:768px){
+    .banner_text h3{
+        font-size: 60px;
+    }
+    .career_banner{
+        flex-direction: column-reverse;
+    }
+
+    .banner_image img{
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .big_leap h3{
+      font-size: 33px;
+      padding: 40px 0;
+    }
+
+    .tabcontent p{
+        font-size: 15px;
+    }
+
+    .test h2{
+        font-size: 25px;
+    }
+
+    .test_flex p, .test_details h4{
+        font-size: 18px;
+    }
+
+    .test_details h6{
+        font-size: 12px;
+    }
+
+    .contact h3 {
+        font-size: 26px;
+        padding: 40px 60px;
+    }
+
+    .contact p {
+        font-size: 10px;
+    }
+}
+     /*media query 768px screen ends here*/
+
+      /*media query 520px screen starts here*/
+@media (max-width:520px)
+{
+    .banner_image img{
+        width: 100%;
+    }
+
+    .banner_text h3{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .banner_text h5{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .banner_text p{
+        font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 19px;
+    }
+
+    .career_banner .banner_text .position_button .button_text .banner_button{
+        font-size: 15px;
+        line-height: 21px;
+    }
+     .position_button{
+        justify-content: center;
+    } 
+
+    .about h3{
+        font-size: 20px;
+        padding-top: 20px;
+}
+    
+
+    .about p{
+        font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 20px;
+    }
+
+    .about_button{
+        font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 40px;
+    }
+
+    .banner {
+        padding-bottom: 46px;
+    }
+
+    .big_leap h3{
+        font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    }
+
+    .big_leap .para1, .big_leap .para2{
+        font-size: 15px;
+    line-height: 22px;
+    }
+
+    .tab{
+        width: 100%;
+    flex-wrap: wrap;
+    }
+
+    .content{
+        grid-template-columns: auto;
+    }
+
+    .heading{
+        font-size: 17px;
+    line-height: 30px;
+    }
+
+    .six_icons{
+        grid-template-columns: auto;
+    }
+
+    .test h2{
+        font-size: 17px;
+    line-height: 30px;
+    }
+
+    .test_flex {
+        row-gap: 60px;
+        flex-direction: column;
+
+    }
+    .test_flex p{
+        font-size: 14px;
+        line-height: 21px;   
+    
+    }
+
+    .test_details h6{
+        line-height: 20px;
+    }
+
+    .test_details h4{
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .testimonial .test_flex .test_emp .loc_text .test_location {
+        font-size: 14px;
+    }
+
+    .contact h3{
+        font-size: 23px;
+    line-height: 30px;
+    padding: 20px 10px;
+    text-align: center;
+    }
+
+    .contact p, .contact a{
+        font-size: 14px;
+    line-height: 21px;
+    }
+}
+
+@media(max-width:420px){
+
+    .tablinks{
+        padding: 10px;
+    margin-bottom: 10px;
+    }
+    
+}
+
+@media(max-width:320px){
+    .banner_text h5{
+        font-size: 16px;
+    }
+
+    .position_button{
+        left: 44px;
+    top: 719px;
+    }
+    
+}
